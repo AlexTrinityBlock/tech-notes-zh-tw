@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Leetcode on 無面者小站</title>
-    <link>http://localhost:1313/blog/public/tags/leetcode/</link>
+    <link>https://alextrinityblock.github.io/blog/public/tags/leetcode/</link>
     <description>Recent content in Leetcode on 無面者小站</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-hant</language>
     <lastBuildDate>Sat, 11 Oct 2025 10:00:44 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/public/tags/leetcode/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://alextrinityblock.github.io/blog/public/tags/leetcode/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Grind 75 Python 做題記錄 217. Contains Duplicate</title>
-      <link>http://localhost:1313/blog/public/post/leetcode/grind-75-python-%E5%81%9A%E9%A1%8C%E8%A8%98%E9%8C%84-217.-contains-duplicate/</link>
+      <link>https://alextrinityblock.github.io/blog/public/post/leetcode/grind-75-python-%E5%81%9A%E9%A1%8C%E8%A8%98%E9%8C%84-217.-contains-duplicate/</link>
       <pubDate>Sat, 11 Oct 2025 10:00:44 +0800</pubDate>
-      <guid>http://localhost:1313/blog/public/post/leetcode/grind-75-python-%E5%81%9A%E9%A1%8C%E8%A8%98%E9%8C%84-217.-contains-duplicate/</guid>
+      <guid>https://alextrinityblock.github.io/blog/public/post/leetcode/grind-75-python-%E5%81%9A%E9%A1%8C%E8%A8%98%E9%8C%84-217.-contains-duplicate/</guid>
       <description>Grind 75 Python 做題記錄 217. Contains Duplicate Grind 75 連結 Leetcode 題目連結 答題 class Solution: def containsDuplicate(self, nums: List[int]) -&amp;gt; bool: # Set 長度與字串長度不同，代表有重複 return len(set(nums)) != len(nums)</description>
     </item>
   </channel>
