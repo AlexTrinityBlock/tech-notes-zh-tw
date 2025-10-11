@@ -43,7 +43,7 @@
 <meta itemprop="name" content="Grind 75 Python 做題記錄 20. Valid Parentheses">
 <meta itemprop="description" content="Grind 75 Python 做題記錄 20. Valid Parentheses Grind 75 連結 Leetcode 題目連結 class Solution: def isValid(self, s: str) -&gt; bool: # 若為空字串直接返回 if len(s) == 0: return True # 建立括弧對的紀錄 pari_dict:dict = { &#34;)&#34;:&#34;(&#34;, &#34;}&#34;:&#34;{&#34;, &#34;]&#34;:&#34;[&#34; } # 建立 stack stack = list() # 遍歷字"><meta itemprop="datePublished" content="2025-10-11T10:12:44+08:00" />
 <meta itemprop="dateModified" content="2025-10-11T10:12:44+08:00" />
-<meta itemprop="wordCount" content="174">
+<meta itemprop="wordCount" content="295">
 <meta itemprop="keywords" content="leetcode," /><meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Grind 75 Python 做題記錄 20. Valid Parentheses"/>
 <meta name="twitter:description" content="Grind 75 Python 做題記錄 20. Valid Parentheses Grind 75 連結 Leetcode 題目連結 class Solution: def isValid(self, s: str) -&gt; bool: # 若為空字串直接返回 if len(s) == 0: return True # 建立括弧對的紀錄 pari_dict:dict = { &#34;)&#34;:&#34;(&#34;, &#34;}&#34;:&#34;{&#34;, &#34;]&#34;:&#34;[&#34; } # 建立 stack stack = list() # 遍歷字"/>
 
@@ -264,7 +264,14 @@
 </span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">True</span>
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">else</span>:
 </span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">False</span>
-</span></span></code></pre></div><ul class="pa0">
+</span></span></code></pre></div><h2 id="口訣">口訣</h2>
+<p>括弧字典k與v，右括為k左括v</p>
+<p>建立stack存左括，遍歷字串為字元</p>
+<p>遇右括號先判斷，stack空回傳False</p>
+<p>如不空則pop出來，比對字典k與v</p>
+<p>遇左括號放stack，迴圈結束看stack</p>
+<p>stack空則回傳True，stack不空則False</p>
+<ul class="pa0">
   
    <li class="list">
      <a href="/tags/leetcode" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">leetcode</a>

@@ -43,3 +43,17 @@ class Solution:
     else:
       return False
 ```
+
+## 口訣
+
+括弧字典k與v，右括為k左括v
+
+建立stack存左括，遍歷字串為字元
+
+遇右括號先判斷，stack空回傳False
+
+如不空則pop出來，比對字典k與v
+
+遇左括號放stack，迴圈結束看stack
+
+stack空則回傳True，stack不空則False
