@@ -6,8 +6,22 @@
     <description>Recent content in Leetcode on 無面者小站</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-hant</language>
-    <lastBuildDate>Sat, 11 Oct 2025 10:00:44 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 11 Oct 2025 10:02:44 +0800</lastBuildDate>
     <atom:link href="https://alextrinityblock.github.io/blog/public/tags/leetcode/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Grind 75 Python 做題記錄 104. Maximum Depth of Binary Tree</title>
+      <link>https://alextrinityblock.github.io/blog/public/post/leetcode/grind-75-python-%E5%81%9A%E9%A1%8C%E8%A8%98%E9%8C%84-104.-maximum-depth-of-binary-tree/</link>
+      <pubDate>Sat, 11 Oct 2025 10:02:44 +0800</pubDate>
+      <guid>https://alextrinityblock.github.io/blog/public/post/leetcode/grind-75-python-%E5%81%9A%E9%A1%8C%E8%A8%98%E9%8C%84-104.-maximum-depth-of-binary-tree/</guid>
+      <description>Grind 75 Python 做題記錄 104. Maximum Depth of Binary Tree Grind 75 連結 Leetcode 題目連結 # Definition for a binary tree node. # class TreeNode: # def __init__(self, val=0, left=None, right=None): # self.val = val # self.left = left # self.right = right class Solution: def maxDepth(self, root: Optional[TreeNode]) -&amp;gt; int: # 觸底返 0 if not root: return 0 # 取</description>
+    </item>
+    <item>
+      <title>Grind 75 Python 做題記錄 876. Middle of the Linked List</title>
+      <link>https://alextrinityblock.github.io/blog/public/post/leetcode/grind-75-python-%E5%81%9A%E9%A1%8C%E8%A8%98%E9%8C%84-876.-middle-of-the-linked-list/</link>
+      <pubDate>Sat, 11 Oct 2025 10:01:44 +0800</pubDate>
+      <guid>https://alextrinityblock.github.io/blog/public/post/leetcode/grind-75-python-%E5%81%9A%E9%A1%8C%E8%A8%98%E9%8C%84-876.-middle-of-the-linked-list/</guid>
+      <description>Grind 75 Python 做題記錄 876. Middle of the Linked List Grind 75 連結 Leetcode 題目連結 # Definition for singly-linked list. # class ListNode: # def __init__(self, val=0, next=None): # self.val = val # self.next = next class Solution: def middleNode(self, head: Optional[ListNode]) -&amp;gt; Optional[ListNode]: # 建立快慢針 fast = slow = head # 快針遍歷，快針</description>
+    </item>
     <item>
       <title>Grind 75 Python 做題記錄 217. Contains Duplicate</title>
       <link>https://alextrinityblock.github.io/blog/public/post/leetcode/grind-75-python-%E5%81%9A%E9%A1%8C%E8%A8%98%E9%8C%84-217.-contains-duplicate/</link>
