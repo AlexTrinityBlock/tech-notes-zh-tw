@@ -43,7 +43,7 @@
 <meta itemprop="name" content="Grind 75 Python 做題記錄 1. Two Sum">
 <meta itemprop="description" content="Grind 75 Python 做題記錄 1. Two Sum Grind 75 連結 Leetcode 題目連結 # enumerate class Solution: def twoSum(self, nums: List[int], target: int) -&gt; List[int]: # 建立快取 key 為數值差值，Value 為 index cache: dict = dict() # 遍歷 nums for k,v in enumerate(nums): # 找到差值 diff:int = target"><meta itemprop="datePublished" content="2025-10-11T10:11:44+08:00" />
 <meta itemprop="dateModified" content="2025-10-11T10:11:44+08:00" />
-<meta itemprop="wordCount" content="110">
+<meta itemprop="wordCount" content="184">
 <meta itemprop="keywords" content="leetcode," /><meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Grind 75 Python 做題記錄 1. Two Sum"/>
 <meta name="twitter:description" content="Grind 75 Python 做題記錄 1. Two Sum Grind 75 連結 Leetcode 題目連結 # enumerate class Solution: def twoSum(self, nums: List[int], target: int) -&gt; List[int]: # 建立快取 key 為數值差值，Value 為 index cache: dict = dict() # 遍歷 nums for k,v in enumerate(nums): # 找到差值 diff:int = target"/>
 
@@ -250,7 +250,13 @@
 </span></span><span style="display:flex;"><span>      cache[diff] <span style="color:#f92672">=</span> k
 </span></span><span style="display:flex;"><span>    <span style="color:#75715e"># 回傳空 List</span>
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> []
-</span></span></code></pre></div><ul class="pa0">
+</span></span></code></pre></div><h2 id="口訣">口訣</h2>
+<p>建立快取存K-V，K為差值V索引</p>
+<p>遍歷序列找差值，目標減去當前值</p>
+<p>如當前值在快取，回傳當前和差值索引</p>
+<p>將差值與索引存快取，差值為K索引V</p>
+<p>迴圈完畢空序列</p>
+<ul class="pa0">
   
    <li class="list">
      <a href="/tags/leetcode" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">leetcode</a>
