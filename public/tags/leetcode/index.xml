@@ -6,14 +6,21 @@
     <description>Recent content in Leetcode on 無面者小站</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-hant</language>
-    <lastBuildDate>Sat, 11 Oct 2025 10:23:44 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 11 Oct 2025 10:24:44 +0800</lastBuildDate>
     <atom:link href="https://alextrinityblock.github.io/blog/public/tags/leetcode/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Grind 75 Python 做題記錄 53. Maximum Subarray</title>
+      <link>https://alextrinityblock.github.io/blog/public/post/leetcode/grind-75-python-%E5%81%9A%E9%A1%8C%E8%A8%98%E9%8C%84-53.-maximum-subarray/</link>
+      <pubDate>Sat, 11 Oct 2025 10:24:44 +0800</pubDate>
+      <guid>https://alextrinityblock.github.io/blog/public/post/leetcode/grind-75-python-%E5%81%9A%E9%A1%8C%E8%A8%98%E9%8C%84-53.-maximum-subarray/</guid>
+      <description>Grind 75 Python 做題記錄 Grind 75 Python 做題記錄 53. Maximum Subarray Grind 75 連結 Leetcode 題目連結 實測起來if比max快一些。 import math class Solution: def maxSubArray(self, nums: List[int]) -&amp;gt; int: # Kadane&amp;#39;s Algorithm 卡登算法 # 定義全局最大和與局部最大</description>
+    </item>
     <item>
       <title>Grind 75 Python 做題記錄 232. Implement Queue using Stacks</title>
       <link>https://alextrinityblock.github.io/blog/public/post/leetcode/grind-75-python-%E5%81%9A%E9%A1%8C%E8%A8%98%E9%8C%84-232.-implement-queue-using-stacks/</link>
       <pubDate>Sat, 11 Oct 2025 10:23:44 +0800</pubDate>
       <guid>https://alextrinityblock.github.io/blog/public/post/leetcode/grind-75-python-%E5%81%9A%E9%A1%8C%E8%A8%98%E9%8C%84-232.-implement-queue-using-stacks/</guid>
-      <description>Grind 75 Python 做題記錄 232. Implement Queue using Stacks Grind 75 連結 Leetcode 題目連結</description>
+      <description>Grind 75 Python 做題記錄 232. Implement Queue using Stacks Grind 75 連結 Leetcode 題目連結 class MyQueue: def __init__(self): self.stack1 = list() self.stack2 = list() def push(self, x: int) -&amp;gt; None: # Push 的時候放入 Stack1 self.stack1.append(x) def pop(self) -&amp;gt; int: # Pop 的時候，如果 Stack2 存在元素，先從 Stack2 倒出 if</description>
     </item>
     <item>
       <title>Grind 75 Python 做題記錄 110. Balanced Binary Tree</title>
