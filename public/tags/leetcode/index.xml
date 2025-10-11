@@ -13,7 +13,7 @@
       <link>https://alextrinityblock.github.io/blog/public/post/leetcode/grind-75-python-%E5%81%9A%E9%A1%8C%E8%A8%98%E9%8C%84-67.-add-binary/</link>
       <pubDate>Sat, 11 Oct 2025 10:10:44 +0800</pubDate>
       <guid>https://alextrinityblock.github.io/blog/public/post/leetcode/grind-75-python-%E5%81%9A%E9%A1%8C%E8%A8%98%E9%8C%84-67.-add-binary/</guid>
-      <description>Grind 75 Python 做題記錄 67. Add Binary Grind 75 連結 Leetcode 題目連結 class Solution: def addBinary(self, a: str, b: str) -&amp;gt; str: # 1. int(a, 2): 將二進位字串 &amp;#39;a&amp;#39; 轉為十進位整數 # 2. int(b, 2): 將二進位字串 &amp;#39;b&amp;#39; 轉為十進位整數 # 3. ... + ...:</description>
+      <description>Grind 75 Python 做題記錄 67. Add Binary Grind 75 連結 Leetcode 題目連結 位元加法 class Solution: def addBinary(self, a: str, b: str) -&amp;gt; str: # 初始化結果列表、進位(carry)和指標(i, j) result = [] carry = 0 i, j = len(a) - 1,</description>
     </item>
     <item>
       <title>Grind 75 Python 做題記錄 169. Majority Element</title>
