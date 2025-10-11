@@ -53,10 +53,10 @@ SectionPagesMenu = "main" #上排標籤選單
     url = "/tags/GCP/"
     weight = 1
 [[menu.main]]
-    identifier = "CCNA"
-    name = "CCNA"
-    title = "CCNA"
-    url = "/tags/CCNA/"
+    identifier = "LeetCode"
+    name = "LeetCode"
+    title = "LeetCode"
+    url = "/tags/LeetCode/"
     weight = 1
 [[menu.main]]
     identifier = "Node.js"
