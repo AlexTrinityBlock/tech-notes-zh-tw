@@ -1,3 +1,11 @@
+---
+title: "Grind 75 Python 做題記錄 217. Contains Duplicate"
+date: 2025-10-11T10:00:44+08:00
+draft: false
+featured_image: "/code.jpg"
+tags: ["leetcode"]
+---
+
 # Grind 75 Python 做題記錄 217. Contains Duplicate
 
 [Grind 75 連結](https://www.techinterviewhandbook.org/grind75/)
