@@ -6,8 +6,15 @@
     <description>Recent content in 一個凡人的筆記 on 無面者小站</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-hant</language>
-    <lastBuildDate>Sat, 11 Oct 2025 10:20:44 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 11 Oct 2025 10:21:44 +0800</lastBuildDate>
     <atom:link href="https://alextrinityblock.github.io/blog/public/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Grind 75 Python 做題記錄 235. Lowest Common Ancestor of a Binary Search Tree</title>
+      <link>https://alextrinityblock.github.io/blog/public/post/leetcode/grind-75-python-%E5%81%9A%E9%A1%8C%E8%A8%98%E9%8C%84-235.-lowest-common-ancestor-of-a-binary-search-tree/</link>
+      <pubDate>Sat, 11 Oct 2025 10:21:44 +0800</pubDate>
+      <guid>https://alextrinityblock.github.io/blog/public/post/leetcode/grind-75-python-%E5%81%9A%E9%A1%8C%E8%A8%98%E9%8C%84-235.-lowest-common-ancestor-of-a-binary-search-tree/</guid>
+      <description>Grind 75 Python 做題記錄 235. Lowest Common Ancestor of a Binary Search Tree Grind 75 連結 Leetcode 題目連結 # Definition for a binary tree node. # class TreeNode: # def __init__(self, x): # self.val = x # self.left = None # self.right = None class Solution: def lowestCommonAncestor(self, root: &amp;#39;TreeNode&amp;#39;, p: &amp;#39;TreeNode&amp;#39;, q: &amp;#39;TreeNode&amp;#39;) -&amp;gt; &amp;#39;TreeNode&amp;#39;: # 如果走到底仍</description>
+    </item>
     <item>
       <title>Grind 75 Python 做題記錄 733. Flood Fill</title>
       <link>https://alextrinityblock.github.io/blog/public/post/leetcode/grind-75-python-%E5%81%9A%E9%A1%8C%E8%A8%98%E9%8C%84-733.-flood-fill/</link>
