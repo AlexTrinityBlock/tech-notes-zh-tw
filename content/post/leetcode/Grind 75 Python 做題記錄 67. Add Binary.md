@@ -1,6 +1,6 @@
 ---
 title: "Grind 75 Python 做題記錄 67. Add Binary"
-date: 2025-10-11T10:010:44+08:00
+date: 2025-10-11T10:10:44+08:00
 draft: false
 featured_image: "/code.jpg"
 tags: ["leetcode"]
