@@ -43,7 +43,7 @@
 <meta itemprop="name" content="Grind 75 Python 做題記錄 21. Merge Two Sorted Lists">
 <meta itemprop="description" content="Grind 75 Python 做題記錄 21. Merge Two Sorted Lists Grind 75 連結 Leetcode 題目連結 # Definition for singly-linked list. # class ListNode: # def __init__(self, val=0, next=None): # self.val = val # self.next = next class Solution: def mergeTwoLists(self, list1: Optional[ListNode], list2: Optional[ListNode]) -&gt; Optional[ListNode]: # 建立虛擬頭部 dummy_head = ListNode() # 當前頭部節點 current_node"><meta itemprop="datePublished" content="2025-10-11T10:14:44+08:00" />
 <meta itemprop="dateModified" content="2025-10-11T10:14:44+08:00" />
-<meta itemprop="wordCount" content="157">
+<meta itemprop="wordCount" content="205">
 <meta itemprop="keywords" content="leetcode," /><meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Grind 75 Python 做題記錄 21. Merge Two Sorted Lists"/>
 <meta name="twitter:description" content="Grind 75 Python 做題記錄 21. Merge Two Sorted Lists Grind 75 連結 Leetcode 題目連結 # Definition for singly-linked list. # class ListNode: # def __init__(self, val=0, next=None): # self.val = val # self.next = next class Solution: def mergeTwoLists(self, list1: Optional[ListNode], list2: Optional[ListNode]) -&gt; Optional[ListNode]: # 建立虛擬頭部 dummy_head = ListNode() # 當前頭部節點 current_node"/>
 
@@ -262,7 +262,12 @@
 </span></span><span style="display:flex;"><span>        <span style="color:#75715e"># 將最後一個節點安上</span>
 </span></span><span style="display:flex;"><span>        current_node<span style="color:#f92672">.</span>next <span style="color:#f92672">=</span> list1 <span style="color:#f92672">or</span> list2
 </span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> dummy_head<span style="color:#f92672">.</span>next
-</span></span></code></pre></div><ul class="pa0">
+</span></span></code></pre></div><h2 id="口訣">口訣</h2>
+<p>建立虛擬頭，建立當前頭</p>
+<p>遍歷兩list，較小放串列</p>
+<p>當前串前推，最後點安上</p>
+<p>回傳虛擬頭，頭的下節點</p>
+<ul class="pa0">
   
    <li class="list">
      <a href="/tags/leetcode" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">leetcode</a>

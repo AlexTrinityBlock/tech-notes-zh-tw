@@ -41,3 +41,13 @@ class Solution:
         current_node.next = list1 or list2
         return dummy_head.next
 ```
+
+## 口訣
+
+建立虛擬頭，建立當前頭
+
+遍歷兩list，較小放串列
+
+當前串前推，最後點安上
+
+回傳虛擬頭，頭的下節點
