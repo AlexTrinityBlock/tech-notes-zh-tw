@@ -6,7 +6,7 @@
     
     <title>Grind 75 Python 做題記錄 53. Maximum Subarray | 無面者小站</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="description" content="Grind 75 Python 做題記錄 Grind 75 Python 做題記錄 53. Maximum Subarray Grind 75 連結 Leetcode 題目連結 實測起來if比max快一些。 import math class Solution: def maxSubArray(self, nums: List[int]) -&gt; int: # Kadane&#39;s Algorithm 卡登算法 # 定義全局最大和與局部最大">
+    <meta name="description" content="Grind 75 Python 做題記錄 53. Maximum Subarray Grind 75 連結 Leetcode 題目連結 實測起來if比max快一些。 import math class Solution: def maxSubArray(self, nums: List[int]) -&gt; int: # Kadane&#39;s Algorithm 卡登算法 # 定義全局最大和與局部最大和 global_max_sum = -math.inf local_max_sum = 0">
     <meta name="generator" content="Hugo 0.123.1">
     
     
@@ -34,18 +34,18 @@
     
     
     <meta property="og:title" content="Grind 75 Python 做題記錄 53. Maximum Subarray" />
-<meta property="og:description" content="Grind 75 Python 做題記錄 Grind 75 Python 做題記錄 53. Maximum Subarray Grind 75 連結 Leetcode 題目連結 實測起來if比max快一些。 import math class Solution: def maxSubArray(self, nums: List[int]) -&gt; int: # Kadane&#39;s Algorithm 卡登算法 # 定義全局最大和與局部最大" />
+<meta property="og:description" content="Grind 75 Python 做題記錄 53. Maximum Subarray Grind 75 連結 Leetcode 題目連結 實測起來if比max快一些。 import math class Solution: def maxSubArray(self, nums: List[int]) -&gt; int: # Kadane&#39;s Algorithm 卡登算法 # 定義全局最大和與局部最大和 global_max_sum = -math.inf local_max_sum = 0" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://alextrinityblock.github.io/blog/public/post/leetcode/grind-75-python-%E5%81%9A%E9%A1%8C%E8%A8%98%E9%8C%84-53.-maximum-subarray/" /><meta property="article:section" content="post" />
 <meta property="article:published_time" content="2025-10-11T10:24:44+08:00" />
 <meta property="article:modified_time" content="2025-10-11T10:24:44+08:00" />
 
 <meta itemprop="name" content="Grind 75 Python 做題記錄 53. Maximum Subarray">
-<meta itemprop="description" content="Grind 75 Python 做題記錄 Grind 75 Python 做題記錄 53. Maximum Subarray Grind 75 連結 Leetcode 題目連結 實測起來if比max快一些。 import math class Solution: def maxSubArray(self, nums: List[int]) -&gt; int: # Kadane&#39;s Algorithm 卡登算法 # 定義全局最大和與局部最大"><meta itemprop="datePublished" content="2025-10-11T10:24:44+08:00" />
+<meta itemprop="description" content="Grind 75 Python 做題記錄 53. Maximum Subarray Grind 75 連結 Leetcode 題目連結 實測起來if比max快一些。 import math class Solution: def maxSubArray(self, nums: List[int]) -&gt; int: # Kadane&#39;s Algorithm 卡登算法 # 定義全局最大和與局部最大和 global_max_sum = -math.inf local_max_sum = 0"><meta itemprop="datePublished" content="2025-10-11T10:24:44+08:00" />
 <meta itemprop="dateModified" content="2025-10-11T10:24:44+08:00" />
-<meta itemprop="wordCount" content="220">
+<meta itemprop="wordCount" content="213">
 <meta itemprop="keywords" content="leetcode," /><meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Grind 75 Python 做題記錄 53. Maximum Subarray"/>
-<meta name="twitter:description" content="Grind 75 Python 做題記錄 Grind 75 Python 做題記錄 53. Maximum Subarray Grind 75 連結 Leetcode 題目連結 實測起來if比max快一些。 import math class Solution: def maxSubArray(self, nums: List[int]) -&gt; int: # Kadane&#39;s Algorithm 卡登算法 # 定義全局最大和與局部最大"/>
+<meta name="twitter:description" content="Grind 75 Python 做題記錄 53. Maximum Subarray Grind 75 連結 Leetcode 題目連結 實測起來if比max快一些。 import math class Solution: def maxSubArray(self, nums: List[int]) -&gt; int: # Kadane&#39;s Algorithm 卡登算法 # 定義全局最大和與局部最大和 global_max_sum = -math.inf local_max_sum = 0"/>
 
 	<meta name="google-site-verification" content="PwYpY_hicXFDwb2NSEpBU7I_8yQDyj8JZMarXbZ_F9Q" />
 
@@ -232,7 +232,7 @@
       
       
     </header>
-    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><h1 id="grind-75-python-做題記錄-grind-75-python-做題記錄-53-maximum-subarray">Grind 75 Python 做題記錄 Grind 75 Python 做題記錄 53. Maximum Subarray</h1>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><h1 id="grind-75-python-做題記錄-53-maximum-subarray">Grind 75 Python 做題記錄 53. Maximum Subarray</h1>
 <p><a href="https://www.techinterviewhandbook.org/grind75/">Grind 75 連結</a></p>
 <p><a href="https://leetcode.com/problems/maximum-subarray/description/">Leetcode 題目連結</a></p>
 <p>實測起來<code>if</code>比<code>max</code>快一些。</p>

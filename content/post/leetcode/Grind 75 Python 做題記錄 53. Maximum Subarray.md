@@ -6,7 +6,7 @@ featured_image: "/code.jpg"
 tags: ["leetcode"]
 ---
 
-# Grind 75 Python 做題記錄 Grind 75 Python 做題記錄 53. Maximum Subarray
+# Grind 75 Python 做題記錄 53. Maximum Subarray
 
 [Grind 75 連結](https://www.techinterviewhandbook.org/grind75/)
 
