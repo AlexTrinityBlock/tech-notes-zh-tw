@@ -1,3 +1,4 @@
 # Blog
-This is my blog. 
+This is my blog.
+
 https://alextrinityblock.github.io/blog/public/
