@@ -95,7 +95,7 @@ SectionPagesMenu = "main" #上排標籤選單
     filename = "sitemap.xml"
 
 [params]
-  favicon = "/avatar2.jpg" #網站上頭的圖示
+  favicon = "avatar2.png" #網站上頭的圖示(開頭不要加斜線，否則 Hugo 會忽略 baseURL 的子路徑)
 #  背景顏色
 #  body_classes = "avenir bg-light-silver"
 #  文章字體
