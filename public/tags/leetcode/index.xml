@@ -2,185 +2,185 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Leetcode on 無面者小站</title>
-    <link>https://alextrinityblock.github.io/blog/public/tags/leetcode/</link>
+    <link>https://alextrinityblock.github.io/tech-notes-zh-tw/public/tags/leetcode/</link>
     <description>Recent content in Leetcode on 無面者小站</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-hant</language>
     <lastBuildDate>Sat, 11 Oct 2025 10:24:44 +0800</lastBuildDate>
-    <atom:link href="https://alextrinityblock.github.io/blog/public/tags/leetcode/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://alextrinityblock.github.io/tech-notes-zh-tw/public/tags/leetcode/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Grind 75 Python 做題記錄 53. Maximum Subarray</title>
-      <link>https://alextrinityblock.github.io/blog/public/post/leetcode/grind-75-python-%E5%81%9A%E9%A1%8C%E8%A8%98%E9%8C%84-53.-maximum-subarray/</link>
+      <link>https://alextrinityblock.github.io/tech-notes-zh-tw/public/post/leetcode/grind-75-python-%E5%81%9A%E9%A1%8C%E8%A8%98%E9%8C%84-53.-maximum-subarray/</link>
       <pubDate>Sat, 11 Oct 2025 10:24:44 +0800</pubDate>
-      <guid>https://alextrinityblock.github.io/blog/public/post/leetcode/grind-75-python-%E5%81%9A%E9%A1%8C%E8%A8%98%E9%8C%84-53.-maximum-subarray/</guid>
+      <guid>https://alextrinityblock.github.io/tech-notes-zh-tw/public/post/leetcode/grind-75-python-%E5%81%9A%E9%A1%8C%E8%A8%98%E9%8C%84-53.-maximum-subarray/</guid>
       <description>Grind 75 Python 做題記錄 53. Maximum Subarray Grind 75 連結 Leetcode 題目連結 實測起來if比max快一些。 import math class Solution: def maxSubArray(self, nums: List[int]) -&amp;gt; int: # Kadane&amp;#39;s Algorithm 卡登算法 # 定義全局最大和與局部最大和 global_max_sum = -math.inf local_max_sum = 0</description>
     </item>
     <item>
       <title>Grind 75 Python 做題記錄 232. Implement Queue using Stacks</title>
-      <link>https://alextrinityblock.github.io/blog/public/post/leetcode/grind-75-python-%E5%81%9A%E9%A1%8C%E8%A8%98%E9%8C%84-232.-implement-queue-using-stacks/</link>
+      <link>https://alextrinityblock.github.io/tech-notes-zh-tw/public/post/leetcode/grind-75-python-%E5%81%9A%E9%A1%8C%E8%A8%98%E9%8C%84-232.-implement-queue-using-stacks/</link>
       <pubDate>Sat, 11 Oct 2025 10:23:44 +0800</pubDate>
-      <guid>https://alextrinityblock.github.io/blog/public/post/leetcode/grind-75-python-%E5%81%9A%E9%A1%8C%E8%A8%98%E9%8C%84-232.-implement-queue-using-stacks/</guid>
+      <guid>https://alextrinityblock.github.io/tech-notes-zh-tw/public/post/leetcode/grind-75-python-%E5%81%9A%E9%A1%8C%E8%A8%98%E9%8C%84-232.-implement-queue-using-stacks/</guid>
       <description>Grind 75 Python 做題記錄 232. Implement Queue using Stacks Grind 75 連結 Leetcode 題目連結 class MyQueue: def __init__(self): self.stack1 = list() self.stack2 = list() def push(self, x: int) -&amp;gt; None: # Push 的時候放入 Stack1 self.stack1.append(x) def pop(self) -&amp;gt; int: # Pop 的時候，如果 Stack2 存在元素，先從 Stack2 倒出 if</description>
     </item>
     <item>
       <title>Grind 75 Python 做題記錄 110. Balanced Binary Tree</title>
-      <link>https://alextrinityblock.github.io/blog/public/post/leetcode/grind-75-python-%E5%81%9A%E9%A1%8C%E8%A8%98%E9%8C%84-110.-balanced-binary-tree/</link>
+      <link>https://alextrinityblock.github.io/tech-notes-zh-tw/public/post/leetcode/grind-75-python-%E5%81%9A%E9%A1%8C%E8%A8%98%E9%8C%84-110.-balanced-binary-tree/</link>
       <pubDate>Sat, 11 Oct 2025 10:22:44 +0800</pubDate>
-      <guid>https://alextrinityblock.github.io/blog/public/post/leetcode/grind-75-python-%E5%81%9A%E9%A1%8C%E8%A8%98%E9%8C%84-110.-balanced-binary-tree/</guid>
+      <guid>https://alextrinityblock.github.io/tech-notes-zh-tw/public/post/leetcode/grind-75-python-%E5%81%9A%E9%A1%8C%E8%A8%98%E9%8C%84-110.-balanced-binary-tree/</guid>
       <description>Grind 75 Python 做題記錄 110. Balanced Binary Tree Grind 75 連結 Leetcode 題目連結 # Definition for a binary tree node. # class TreeNode: # def __init__(self, val=0, left=None, right=None): # self.val = val # self.left = left # self.right = right class Solution: def isBalanced(self, root: Optional[TreeNode]) -&amp;gt; bool: # 深度優先搜索函數 def dfs(root: Optional[TreeNode]): # 如</description>
     </item>
     <item>
       <title>Grind 75 Python 做題記錄 141. Linked List Cycle</title>
-      <link>https://alextrinityblock.github.io/blog/public/post/leetcode/grind-75-python-%E5%81%9A%E9%A1%8C%E8%A8%98%E9%8C%84-141.-linked-list-cycle/</link>
+      <link>https://alextrinityblock.github.io/tech-notes-zh-tw/public/post/leetcode/grind-75-python-%E5%81%9A%E9%A1%8C%E8%A8%98%E9%8C%84-141.-linked-list-cycle/</link>
       <pubDate>Sat, 11 Oct 2025 10:22:44 +0800</pubDate>
-      <guid>https://alextrinityblock.github.io/blog/public/post/leetcode/grind-75-python-%E5%81%9A%E9%A1%8C%E8%A8%98%E9%8C%84-141.-linked-list-cycle/</guid>
+      <guid>https://alextrinityblock.github.io/tech-notes-zh-tw/public/post/leetcode/grind-75-python-%E5%81%9A%E9%A1%8C%E8%A8%98%E9%8C%84-141.-linked-list-cycle/</guid>
       <description>Grind 75 Python 做題記錄 141. Linked List Cycle Grind 75 連結 Leetcode 題目連結 # Definition for singly-linked list. # class ListNode: # def __init__(self, x): # self.val = x # self.next = None class Solution: def hasCycle(self, head: Optional[ListNode]) -&amp;gt; bool: # 快慢指針 fast = slow = head # 快針未觸底 while fast and fast.next: slow =</description>
     </item>
     <item>
       <title>Grind 75 Python 做題記錄 235. Lowest Common Ancestor of a Binary Search Tree</title>
-      <link>https://alextrinityblock.github.io/blog/public/post/leetcode/grind-75-python-%E5%81%9A%E9%A1%8C%E8%A8%98%E9%8C%84-235.-lowest-common-ancestor-of-a-binary-search-tree/</link>
+      <link>https://alextrinityblock.github.io/tech-notes-zh-tw/public/post/leetcode/grind-75-python-%E5%81%9A%E9%A1%8C%E8%A8%98%E9%8C%84-235.-lowest-common-ancestor-of-a-binary-search-tree/</link>
       <pubDate>Sat, 11 Oct 2025 10:21:44 +0800</pubDate>
-      <guid>https://alextrinityblock.github.io/blog/public/post/leetcode/grind-75-python-%E5%81%9A%E9%A1%8C%E8%A8%98%E9%8C%84-235.-lowest-common-ancestor-of-a-binary-search-tree/</guid>
+      <guid>https://alextrinityblock.github.io/tech-notes-zh-tw/public/post/leetcode/grind-75-python-%E5%81%9A%E9%A1%8C%E8%A8%98%E9%8C%84-235.-lowest-common-ancestor-of-a-binary-search-tree/</guid>
       <description>Grind 75 Python 做題記錄 235. Lowest Common Ancestor of a Binary Search Tree Grind 75 連結 Leetcode 題目連結 # Definition for a binary tree node. # class TreeNode: # def __init__(self, x): # self.val = x # self.left = None # self.right = None class Solution: def lowestCommonAncestor(self, root: &amp;#39;TreeNode&amp;#39;, p: &amp;#39;TreeNode&amp;#39;, q: &amp;#39;TreeNode&amp;#39;) -&amp;gt; &amp;#39;TreeNode&amp;#39;: # 如果走到底仍</description>
     </item>
     <item>
       <title>Grind 75 Python 做題記錄 733. Flood Fill</title>
-      <link>https://alextrinityblock.github.io/blog/public/post/leetcode/grind-75-python-%E5%81%9A%E9%A1%8C%E8%A8%98%E9%8C%84-733.-flood-fill/</link>
+      <link>https://alextrinityblock.github.io/tech-notes-zh-tw/public/post/leetcode/grind-75-python-%E5%81%9A%E9%A1%8C%E8%A8%98%E9%8C%84-733.-flood-fill/</link>
       <pubDate>Sat, 11 Oct 2025 10:20:44 +0800</pubDate>
-      <guid>https://alextrinityblock.github.io/blog/public/post/leetcode/grind-75-python-%E5%81%9A%E9%A1%8C%E8%A8%98%E9%8C%84-733.-flood-fill/</guid>
+      <guid>https://alextrinityblock.github.io/tech-notes-zh-tw/public/post/leetcode/grind-75-python-%E5%81%9A%E9%A1%8C%E8%A8%98%E9%8C%84-733.-flood-fill/</guid>
       <description>Grind 75 Python 做題記錄 733. Flood Fill Grind 75 連結 Leetcode 題目連結 class Solution: def floodFill(self, image: List[List[int]], sr: int, sc: int, color: int) -&amp;gt; List[List[int]]: # 取得寬度與高度 row_len:int = len(image) col_len:int = len(image[0]) # 取得起點顏色 origin_color = image[sr][sc] # 如果起點顏色為目標顏色，</description>
     </item>
     <item>
       <title>Grind 75 Python 做題記錄 704. Binary Search</title>
-      <link>https://alextrinityblock.github.io/blog/public/post/leetcode/grind-75-python-%E5%81%9A%E9%A1%8C%E8%A8%98%E9%8C%84-704.-binary-search/</link>
+      <link>https://alextrinityblock.github.io/tech-notes-zh-tw/public/post/leetcode/grind-75-python-%E5%81%9A%E9%A1%8C%E8%A8%98%E9%8C%84-704.-binary-search/</link>
       <pubDate>Sat, 11 Oct 2025 10:19:44 +0800</pubDate>
-      <guid>https://alextrinityblock.github.io/blog/public/post/leetcode/grind-75-python-%E5%81%9A%E9%A1%8C%E8%A8%98%E9%8C%84-704.-binary-search/</guid>
+      <guid>https://alextrinityblock.github.io/tech-notes-zh-tw/public/post/leetcode/grind-75-python-%E5%81%9A%E9%A1%8C%E8%A8%98%E9%8C%84-704.-binary-search/</guid>
       <description>Grind 75 Python 做題記錄 704. Binary Search Grind 75 連結 Leetcode 題目連結 class Solution: def search(self, nums: List[int], target: int) -&amp;gt; int: # 二分搜索的左右指標設定 left = 0 right = len(nums)-1 # 建立循環條件 while left &amp;lt;= right: # 計算中央值 mid = (left + right)//2 #</description>
     </item>
     <item>
       <title>Grind 75 Python 做題記錄 242. Valid Anagram</title>
-      <link>https://alextrinityblock.github.io/blog/public/post/leetcode/grind-75-python-%E5%81%9A%E9%A1%8C%E8%A8%98%E9%8C%84-242.-valid-anagram/</link>
+      <link>https://alextrinityblock.github.io/tech-notes-zh-tw/public/post/leetcode/grind-75-python-%E5%81%9A%E9%A1%8C%E8%A8%98%E9%8C%84-242.-valid-anagram/</link>
       <pubDate>Sat, 11 Oct 2025 10:18:44 +0800</pubDate>
-      <guid>https://alextrinityblock.github.io/blog/public/post/leetcode/grind-75-python-%E5%81%9A%E9%A1%8C%E8%A8%98%E9%8C%84-242.-valid-anagram/</guid>
+      <guid>https://alextrinityblock.github.io/tech-notes-zh-tw/public/post/leetcode/grind-75-python-%E5%81%9A%E9%A1%8C%E8%A8%98%E9%8C%84-242.-valid-anagram/</guid>
       <description>Grind 75 Python 做題記錄 242. Valid Anagram Grind 75 連結 Leetcode 題目連結 class Solution: def isAnagram(self, s: str, t: str) -&amp;gt; bool: # 假如字串長度不同，回傳 False if len(s) != len(t): return False # 假如轉換成集合不同，回傳 False s_set:set = set(s) if s_set != set(t): return</description>
     </item>
     <item>
       <title>Grind 75 Python 做題記錄 226. Invert Binary Tree</title>
-      <link>https://alextrinityblock.github.io/blog/public/post/leetcode/grind-75-python-%E5%81%9A%E9%A1%8C%E8%A8%98%E9%8C%84-226.-invert-binary-tree/</link>
+      <link>https://alextrinityblock.github.io/tech-notes-zh-tw/public/post/leetcode/grind-75-python-%E5%81%9A%E9%A1%8C%E8%A8%98%E9%8C%84-226.-invert-binary-tree/</link>
       <pubDate>Sat, 11 Oct 2025 10:17:44 +0800</pubDate>
-      <guid>https://alextrinityblock.github.io/blog/public/post/leetcode/grind-75-python-%E5%81%9A%E9%A1%8C%E8%A8%98%E9%8C%84-226.-invert-binary-tree/</guid>
+      <guid>https://alextrinityblock.github.io/tech-notes-zh-tw/public/post/leetcode/grind-75-python-%E5%81%9A%E9%A1%8C%E8%A8%98%E9%8C%84-226.-invert-binary-tree/</guid>
       <description>Grind 75 Python 做題記錄 226. Invert Binary Tree Grind 75 連結 Leetcode 題目連結 # Definition for a binary tree node. # class TreeNode: # def __init__(self, val=0, left=None, right=None): # self.val = val # self.left = left # self.right = right class Solution: def invertTree(self, root: Optional[TreeNode]) -&amp;gt; Optional[TreeNode]: # 假如傳入節點為空，終止遞迴</description>
     </item>
     <item>
       <title>Grind 75 Python 做題記錄 125. Valid Palindrome</title>
-      <link>https://alextrinityblock.github.io/blog/public/post/leetcode/grind-75-python-%E5%81%9A%E9%A1%8C%E8%A8%98%E9%8C%84-125.-valid-palindrome/</link>
+      <link>https://alextrinityblock.github.io/tech-notes-zh-tw/public/post/leetcode/grind-75-python-%E5%81%9A%E9%A1%8C%E8%A8%98%E9%8C%84-125.-valid-palindrome/</link>
       <pubDate>Sat, 11 Oct 2025 10:16:44 +0800</pubDate>
-      <guid>https://alextrinityblock.github.io/blog/public/post/leetcode/grind-75-python-%E5%81%9A%E9%A1%8C%E8%A8%98%E9%8C%84-125.-valid-palindrome/</guid>
+      <guid>https://alextrinityblock.github.io/tech-notes-zh-tw/public/post/leetcode/grind-75-python-%E5%81%9A%E9%A1%8C%E8%A8%98%E9%8C%84-125.-valid-palindrome/</guid>
       <description>Grind 75 Python 做題記錄 125. Valid Palindrome Grind 75 連結 Leetcode 題目連結 class Solution: def isPalindrome(self, s: str) -&amp;gt; bool: # 取得統一小寫，並且去除標點的字串 clean_string : str = &amp;#34;&amp;#34;.join(char.lower() for char in s if char.isalnum()) # 檢查字串是否等於反轉後的字串</description>
     </item>
     <item>
       <title>Grind 75 Python 做題記錄 121. Best Time to Buy and Sell Stock</title>
-      <link>https://alextrinityblock.github.io/blog/public/post/leetcode/grind-75-python-%E5%81%9A%E9%A1%8C%E8%A8%98%E9%8C%84-121.-best-time-to-buy-and-sell-stock/</link>
+      <link>https://alextrinityblock.github.io/tech-notes-zh-tw/public/post/leetcode/grind-75-python-%E5%81%9A%E9%A1%8C%E8%A8%98%E9%8C%84-121.-best-time-to-buy-and-sell-stock/</link>
       <pubDate>Sat, 11 Oct 2025 10:15:44 +0800</pubDate>
-      <guid>https://alextrinityblock.github.io/blog/public/post/leetcode/grind-75-python-%E5%81%9A%E9%A1%8C%E8%A8%98%E9%8C%84-121.-best-time-to-buy-and-sell-stock/</guid>
+      <guid>https://alextrinityblock.github.io/tech-notes-zh-tw/public/post/leetcode/grind-75-python-%E5%81%9A%E9%A1%8C%E8%A8%98%E9%8C%84-121.-best-time-to-buy-and-sell-stock/</guid>
       <description>Grind 75 Python 做題記錄 121. Best Time to Buy and Sell Stock Grind 75 連結 Leetcode 題目連結 import math class Solution: def maxProfit(self, prices: List[int]) -&amp;gt; int: # 定義最小價格 min_price:int = math.inf # 定義最大收益 max_profix:int = 0 # 遍歷價格 for current_price in prices: # 假如當前是最</description>
     </item>
     <item>
       <title>Grind 75 Python 做題記錄 21. Merge Two Sorted Lists</title>
-      <link>https://alextrinityblock.github.io/blog/public/post/leetcode/grind-75-python-%E5%81%9A%E9%A1%8C%E8%A8%98%E9%8C%84-21.-merge-two-sorted-lists/</link>
+      <link>https://alextrinityblock.github.io/tech-notes-zh-tw/public/post/leetcode/grind-75-python-%E5%81%9A%E9%A1%8C%E8%A8%98%E9%8C%84-21.-merge-two-sorted-lists/</link>
       <pubDate>Sat, 11 Oct 2025 10:14:44 +0800</pubDate>
-      <guid>https://alextrinityblock.github.io/blog/public/post/leetcode/grind-75-python-%E5%81%9A%E9%A1%8C%E8%A8%98%E9%8C%84-21.-merge-two-sorted-lists/</guid>
+      <guid>https://alextrinityblock.github.io/tech-notes-zh-tw/public/post/leetcode/grind-75-python-%E5%81%9A%E9%A1%8C%E8%A8%98%E9%8C%84-21.-merge-two-sorted-lists/</guid>
       <description>Grind 75 Python 做題記錄 21. Merge Two Sorted Lists Grind 75 連結 Leetcode 題目連結 # Definition for singly-linked list. # class ListNode: # def __init__(self, val=0, next=None): # self.val = val # self.next = next class Solution: def mergeTwoLists(self, list1: Optional[ListNode], list2: Optional[ListNode]) -&amp;gt; Optional[ListNode]: # 建立虛擬頭部 dummy_head = ListNode() # 當前頭部節點 current_node</description>
     </item>
     <item>
       <title>Grind 75 Python 做題記錄 20. Valid Parentheses</title>
-      <link>https://alextrinityblock.github.io/blog/public/post/leetcode/grind-75-python-%E5%81%9A%E9%A1%8C%E8%A8%98%E9%8C%84-20.-valid-parentheses/</link>
+      <link>https://alextrinityblock.github.io/tech-notes-zh-tw/public/post/leetcode/grind-75-python-%E5%81%9A%E9%A1%8C%E8%A8%98%E9%8C%84-20.-valid-parentheses/</link>
       <pubDate>Sat, 11 Oct 2025 10:12:44 +0800</pubDate>
-      <guid>https://alextrinityblock.github.io/blog/public/post/leetcode/grind-75-python-%E5%81%9A%E9%A1%8C%E8%A8%98%E9%8C%84-20.-valid-parentheses/</guid>
+      <guid>https://alextrinityblock.github.io/tech-notes-zh-tw/public/post/leetcode/grind-75-python-%E5%81%9A%E9%A1%8C%E8%A8%98%E9%8C%84-20.-valid-parentheses/</guid>
       <description>Grind 75 Python 做題記錄 20. Valid Parentheses Grind 75 連結 Leetcode 題目連結 class Solution: def isValid(self, s: str) -&amp;gt; bool: # 若為空字串直接返回 if len(s) == 0: return True # 建立括弧對的紀錄 pari_dict:dict = { &amp;#34;)&amp;#34;:&amp;#34;(&amp;#34;, &amp;#34;}&amp;#34;:&amp;#34;{&amp;#34;, &amp;#34;]&amp;#34;:&amp;#34;[&amp;#34; } # 建立 stack stack = list() # 遍歷字</description>
     </item>
     <item>
       <title>Grind 75 Python 做題記錄 1. Two Sum</title>
-      <link>https://alextrinityblock.github.io/blog/public/post/leetcode/grind-75-python-%E5%81%9A%E9%A1%8C%E8%A8%98%E9%8C%84-1.-two-sum/</link>
+      <link>https://alextrinityblock.github.io/tech-notes-zh-tw/public/post/leetcode/grind-75-python-%E5%81%9A%E9%A1%8C%E8%A8%98%E9%8C%84-1.-two-sum/</link>
       <pubDate>Sat, 11 Oct 2025 10:11:44 +0800</pubDate>
-      <guid>https://alextrinityblock.github.io/blog/public/post/leetcode/grind-75-python-%E5%81%9A%E9%A1%8C%E8%A8%98%E9%8C%84-1.-two-sum/</guid>
+      <guid>https://alextrinityblock.github.io/tech-notes-zh-tw/public/post/leetcode/grind-75-python-%E5%81%9A%E9%A1%8C%E8%A8%98%E9%8C%84-1.-two-sum/</guid>
       <description>Grind 75 Python 做題記錄 1. Two Sum Grind 75 連結 Leetcode 題目連結 # enumerate class Solution: def twoSum(self, nums: List[int], target: int) -&amp;gt; List[int]: # 建立快取 key 為數值差值，Value 為 index cache: dict = dict() # 遍歷 nums for k,v in enumerate(nums): # 找到差值 diff:int = target</description>
     </item>
     <item>
       <title>Grind 75 Python 做題記錄 67. Add Binary</title>
-      <link>https://alextrinityblock.github.io/blog/public/post/leetcode/grind-75-python-%E5%81%9A%E9%A1%8C%E8%A8%98%E9%8C%84-67.-add-binary/</link>
+      <link>https://alextrinityblock.github.io/tech-notes-zh-tw/public/post/leetcode/grind-75-python-%E5%81%9A%E9%A1%8C%E8%A8%98%E9%8C%84-67.-add-binary/</link>
       <pubDate>Sat, 11 Oct 2025 10:10:44 +0800</pubDate>
-      <guid>https://alextrinityblock.github.io/blog/public/post/leetcode/grind-75-python-%E5%81%9A%E9%A1%8C%E8%A8%98%E9%8C%84-67.-add-binary/</guid>
+      <guid>https://alextrinityblock.github.io/tech-notes-zh-tw/public/post/leetcode/grind-75-python-%E5%81%9A%E9%A1%8C%E8%A8%98%E9%8C%84-67.-add-binary/</guid>
       <description>Grind 75 Python 做題記錄 67. Add Binary Grind 75 連結 Leetcode 題目連結 位元加法 class Solution: def addBinary(self, a: str, b: str) -&amp;gt; str: # 初始化結果列表、進位(carry)和指標(i, j) result = [] carry = 0 i, j = len(a) - 1,</description>
     </item>
     <item>
       <title>Grind 75 Python 做題記錄 169. Majority Element</title>
-      <link>https://alextrinityblock.github.io/blog/public/post/leetcode/grind-75-python-%E5%81%9A%E9%A1%8C%E8%A8%98%E9%8C%84-169.-majority-element/</link>
+      <link>https://alextrinityblock.github.io/tech-notes-zh-tw/public/post/leetcode/grind-75-python-%E5%81%9A%E9%A1%8C%E8%A8%98%E9%8C%84-169.-majority-element/</link>
       <pubDate>Sat, 11 Oct 2025 10:09:44 +0800</pubDate>
-      <guid>https://alextrinityblock.github.io/blog/public/post/leetcode/grind-75-python-%E5%81%9A%E9%A1%8C%E8%A8%98%E9%8C%84-169.-majority-element/</guid>
+      <guid>https://alextrinityblock.github.io/tech-notes-zh-tw/public/post/leetcode/grind-75-python-%E5%81%9A%E9%A1%8C%E8%A8%98%E9%8C%84-169.-majority-element/</guid>
       <description>Grind 75 Python 做題記錄 169. Majority Element Grind 75 連結 Leetcode 題目連結 import collections class Solution: def majorityElement(self, nums: List[int]) -&amp;gt; int: # Boyer-Moore 算法 # 記數 count = 0 # 候選人 can = None # 遍歷 List for num in nums: # 假如記數為 0，則記錄候選人 if count</description>
     </item>
     <item>
       <title>Grind 75 Python 做題記錄 206. Reverse Linked List</title>
-      <link>https://alextrinityblock.github.io/blog/public/post/leetcode/grind-75-python-%E5%81%9A%E9%A1%8C%E8%A8%98%E9%8C%84-206.-reverse-linked-list/</link>
+      <link>https://alextrinityblock.github.io/tech-notes-zh-tw/public/post/leetcode/grind-75-python-%E5%81%9A%E9%A1%8C%E8%A8%98%E9%8C%84-206.-reverse-linked-list/</link>
       <pubDate>Sat, 11 Oct 2025 10:08:44 +0800</pubDate>
-      <guid>https://alextrinityblock.github.io/blog/public/post/leetcode/grind-75-python-%E5%81%9A%E9%A1%8C%E8%A8%98%E9%8C%84-206.-reverse-linked-list/</guid>
+      <guid>https://alextrinityblock.github.io/tech-notes-zh-tw/public/post/leetcode/grind-75-python-%E5%81%9A%E9%A1%8C%E8%A8%98%E9%8C%84-206.-reverse-linked-list/</guid>
       <description>Grind 75 Python 做題記錄 206. Reverse Linked List Grind 75 連結 Leetcode 題目連結 # Definition for singly-linked list. # class ListNode: # def __init__(self, val=0, next=None): # self.val = val # self.next = next class Solution: def reverseList(self, head: Optional[ListNode]) -&amp;gt; Optional[ListNode]: # 前一個指標 prev = None # 當前指標 curr = head # 遍歷串</description>
     </item>
     <item>
       <title>Grind 75 Python 做題記錄 409. Longest Palindrome</title>
-      <link>https://alextrinityblock.github.io/blog/public/post/leetcode/grind-75-python-%E5%81%9A%E9%A1%8C%E8%A8%98%E9%8C%84-409.-longest-palindrome/</link>
+      <link>https://alextrinityblock.github.io/tech-notes-zh-tw/public/post/leetcode/grind-75-python-%E5%81%9A%E9%A1%8C%E8%A8%98%E9%8C%84-409.-longest-palindrome/</link>
       <pubDate>Sat, 11 Oct 2025 10:07:44 +0800</pubDate>
-      <guid>https://alextrinityblock.github.io/blog/public/post/leetcode/grind-75-python-%E5%81%9A%E9%A1%8C%E8%A8%98%E9%8C%84-409.-longest-palindrome/</guid>
+      <guid>https://alextrinityblock.github.io/tech-notes-zh-tw/public/post/leetcode/grind-75-python-%E5%81%9A%E9%A1%8C%E8%A8%98%E9%8C%84-409.-longest-palindrome/</guid>
       <description>Grind 75 Python 做題記錄 409. Longest Palindrome Grind 75 連結 Leetcode 題目連結 import collections class Solution: def longestPalindrome(self, s: str) -&amp;gt; int: # 用 collections.Counter(s) 取得每個字元出現次數建立成 dict() # 用 .values() 取得值 # 並且只取出現為奇數的字元 # 計算奇數</description>
     </item>
     <item>
       <title>Grind 75 Python 做題記錄 70. Climbing Stairs</title>
-      <link>https://alextrinityblock.github.io/blog/public/post/leetcode/grind-75-python-%E5%81%9A%E9%A1%8C%E8%A8%98%E9%8C%84-70.-climbing-stairs/</link>
+      <link>https://alextrinityblock.github.io/tech-notes-zh-tw/public/post/leetcode/grind-75-python-%E5%81%9A%E9%A1%8C%E8%A8%98%E9%8C%84-70.-climbing-stairs/</link>
       <pubDate>Sat, 11 Oct 2025 10:06:44 +0800</pubDate>
-      <guid>https://alextrinityblock.github.io/blog/public/post/leetcode/grind-75-python-%E5%81%9A%E9%A1%8C%E8%A8%98%E9%8C%84-70.-climbing-stairs/</guid>
+      <guid>https://alextrinityblock.github.io/tech-notes-zh-tw/public/post/leetcode/grind-75-python-%E5%81%9A%E9%A1%8C%E8%A8%98%E9%8C%84-70.-climbing-stairs/</guid>
       <description>Grind 75 Python 做題記錄 70. Climbing Stairs Grind 75 連結 Leetcode 題目連結 class Solution: def climbStairs(self, n: int) -&amp;gt; int: # 記錄每一層樓梯的步驟數 way_dict = dict() # 初始值 way_dict[0] = 0 way_dict[1] = 1 # 走到二階有一次一階與一次兩階 way_dict[2] = 2</description>
     </item>
     <item>
       <title>Grind 75 Python 做題記錄 383. Ransom Note</title>
-      <link>https://alextrinityblock.github.io/blog/public/post/leetcode/grind-75-python-%E5%81%9A%E9%A1%8C%E8%A8%98%E9%8C%84-383.-ransom-note/</link>
+      <link>https://alextrinityblock.github.io/tech-notes-zh-tw/public/post/leetcode/grind-75-python-%E5%81%9A%E9%A1%8C%E8%A8%98%E9%8C%84-383.-ransom-note/</link>
       <pubDate>Sat, 11 Oct 2025 10:05:44 +0800</pubDate>
-      <guid>https://alextrinityblock.github.io/blog/public/post/leetcode/grind-75-python-%E5%81%9A%E9%A1%8C%E8%A8%98%E9%8C%84-383.-ransom-note/</guid>
+      <guid>https://alextrinityblock.github.io/tech-notes-zh-tw/public/post/leetcode/grind-75-python-%E5%81%9A%E9%A1%8C%E8%A8%98%E9%8C%84-383.-ransom-note/</guid>
       <description>Grind 75 Python 做題記錄 383. Ransom Note Grind 75 連結 Leetcode 題目連結 答題 class Solution: def canConstruct(self, ransomNote: str, magazine: str) -&amp;gt; bool: # 將重複字串過濾，變成一個不重複list r_list = list(set(ransomNote)) # 遍歷 List for i in r_list: # 檢查每個字字數</description>
     </item>
     <item>
       <title>Grind 75 Python 做題記錄 278. First Bad Version</title>
-      <link>https://alextrinityblock.github.io/blog/public/post/leetcode/grind-75-python-%E5%81%9A%E9%A1%8C%E8%A8%98%E9%8C%84-278.-first-bad-version/</link>
+      <link>https://alextrinityblock.github.io/tech-notes-zh-tw/public/post/leetcode/grind-75-python-%E5%81%9A%E9%A1%8C%E8%A8%98%E9%8C%84-278.-first-bad-version/</link>
       <pubDate>Sat, 11 Oct 2025 10:04:44 +0800</pubDate>
-      <guid>https://alextrinityblock.github.io/blog/public/post/leetcode/grind-75-python-%E5%81%9A%E9%A1%8C%E8%A8%98%E9%8C%84-278.-first-bad-version/</guid>
+      <guid>https://alextrinityblock.github.io/tech-notes-zh-tw/public/post/leetcode/grind-75-python-%E5%81%9A%E9%A1%8C%E8%A8%98%E9%8C%84-278.-first-bad-version/</guid>
       <description>Grind 75 Python 做題記錄 278. First Bad Version Grind 75 連結 Leetcode 題目連結 答題 # The isBadVersion API is already defined for you. # def isBadVersion(version: int) -&amp;gt; bool: class Solution: def firstBadVersion(self, n: int) -&amp;gt; int: # 最初版本號 left = 1 # 最終版本號 right = n # 二分搜索條件</description>
     </item>
     <item>
       <title>Grind 75 Python 做題記錄 543. Diameter of Binary Tree</title>
-      <link>https://alextrinityblock.github.io/blog/public/post/leetcode/grind-75-python-%E5%81%9A%E9%A1%8C%E8%A8%98%E9%8C%84-543.-diameter-of-binary-tree/</link>
+      <link>https://alextrinityblock.github.io/tech-notes-zh-tw/public/post/leetcode/grind-75-python-%E5%81%9A%E9%A1%8C%E8%A8%98%E9%8C%84-543.-diameter-of-binary-tree/</link>
       <pubDate>Sat, 11 Oct 2025 10:03:44 +0800</pubDate>
-      <guid>https://alextrinityblock.github.io/blog/public/post/leetcode/grind-75-python-%E5%81%9A%E9%A1%8C%E8%A8%98%E9%8C%84-543.-diameter-of-binary-tree/</guid>
+      <guid>https://alextrinityblock.github.io/tech-notes-zh-tw/public/post/leetcode/grind-75-python-%E5%81%9A%E9%A1%8C%E8%A8%98%E9%8C%84-543.-diameter-of-binary-tree/</guid>
       <description>Grind 75 Python 做題記錄 543. Diameter of Binary Tree Grind 75 連結 Leetcode 題目連結 答題 # Definition for a binary tree node. # class TreeNode: # def __init__(self, val=0, left=None, right=None): # self.val = val # self.left = left # self.right = right class Solution: def diameterOfBinaryTree(self, root: Optional[TreeNode]) -&amp;gt; int: # 儲存當前最大寬度 self.max_diameter =</description>
     </item>
     <item>
       <title>Grind 75 Python 做題記錄 104. Maximum Depth of Binary Tree</title>
-      <link>https://alextrinityblock.github.io/blog/public/post/leetcode/grind-75-python-%E5%81%9A%E9%A1%8C%E8%A8%98%E9%8C%84-104.-maximum-depth-of-binary-tree/</link>
+      <link>https://alextrinityblock.github.io/tech-notes-zh-tw/public/post/leetcode/grind-75-python-%E5%81%9A%E9%A1%8C%E8%A8%98%E9%8C%84-104.-maximum-depth-of-binary-tree/</link>
       <pubDate>Sat, 11 Oct 2025 10:02:44 +0800</pubDate>
-      <guid>https://alextrinityblock.github.io/blog/public/post/leetcode/grind-75-python-%E5%81%9A%E9%A1%8C%E8%A8%98%E9%8C%84-104.-maximum-depth-of-binary-tree/</guid>
+      <guid>https://alextrinityblock.github.io/tech-notes-zh-tw/public/post/leetcode/grind-75-python-%E5%81%9A%E9%A1%8C%E8%A8%98%E9%8C%84-104.-maximum-depth-of-binary-tree/</guid>
       <description>Grind 75 Python 做題記錄 104. Maximum Depth of Binary Tree Grind 75 連結 Leetcode 題目連結 # Definition for a binary tree node. # class TreeNode: # def __init__(self, val=0, left=None, right=None): # self.val = val # self.left = left # self.right = right class Solution: def maxDepth(self, root: Optional[TreeNode]) -&amp;gt; int: # 觸底返 0 if not root: return 0 # 取</description>
     </item>
     <item>
       <title>Grind 75 Python 做題記錄 876. Middle of the Linked List</title>
-      <link>https://alextrinityblock.github.io/blog/public/post/leetcode/grind-75-python-%E5%81%9A%E9%A1%8C%E8%A8%98%E9%8C%84-876.-middle-of-the-linked-list/</link>
+      <link>https://alextrinityblock.github.io/tech-notes-zh-tw/public/post/leetcode/grind-75-python-%E5%81%9A%E9%A1%8C%E8%A8%98%E9%8C%84-876.-middle-of-the-linked-list/</link>
       <pubDate>Sat, 11 Oct 2025 10:01:44 +0800</pubDate>
-      <guid>https://alextrinityblock.github.io/blog/public/post/leetcode/grind-75-python-%E5%81%9A%E9%A1%8C%E8%A8%98%E9%8C%84-876.-middle-of-the-linked-list/</guid>
+      <guid>https://alextrinityblock.github.io/tech-notes-zh-tw/public/post/leetcode/grind-75-python-%E5%81%9A%E9%A1%8C%E8%A8%98%E9%8C%84-876.-middle-of-the-linked-list/</guid>
       <description>Grind 75 Python 做題記錄 876. Middle of the Linked List Grind 75 連結 Leetcode 題目連結 # Definition for singly-linked list. # class ListNode: # def __init__(self, val=0, next=None): # self.val = val # self.next = next class Solution: def middleNode(self, head: Optional[ListNode]) -&amp;gt; Optional[ListNode]: # 建立快慢針 fast = slow = head # 快針遍歷，快針</description>
     </item>
     <item>
       <title>Grind 75 Python 做題記錄 217. Contains Duplicate</title>
-      <link>https://alextrinityblock.github.io/blog/public/post/leetcode/grind-75-python-%E5%81%9A%E9%A1%8C%E8%A8%98%E9%8C%84-217.-contains-duplicate/</link>
+      <link>https://alextrinityblock.github.io/tech-notes-zh-tw/public/post/leetcode/grind-75-python-%E5%81%9A%E9%A1%8C%E8%A8%98%E9%8C%84-217.-contains-duplicate/</link>
       <pubDate>Sat, 11 Oct 2025 10:00:44 +0800</pubDate>
-      <guid>https://alextrinityblock.github.io/blog/public/post/leetcode/grind-75-python-%E5%81%9A%E9%A1%8C%E8%A8%98%E9%8C%84-217.-contains-duplicate/</guid>
+      <guid>https://alextrinityblock.github.io/tech-notes-zh-tw/public/post/leetcode/grind-75-python-%E5%81%9A%E9%A1%8C%E8%A8%98%E9%8C%84-217.-contains-duplicate/</guid>
       <description>Grind 75 Python 做題記錄 217. Contains Duplicate Grind 75 連結 Leetcode 題目連結 答題 class Solution: def containsDuplicate(self, nums: List[int]) -&amp;gt; bool: # Set 長度與字串長度不同，代表有重複 return len(set(nums)) != len(nums)</description>
     </item>
   </channel>

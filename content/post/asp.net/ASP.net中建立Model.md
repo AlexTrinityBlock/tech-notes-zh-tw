@@ -27,17 +27,17 @@ web(根據你專案的名稱有所不同)
 
 建立Models資料夾
 
-![img](/blog/public/2022-02-22/1.png)
+![img](/tech-notes-zh-tw/public/2022-02-22/1.png)
 
-![img](/blog/public/2022-02-22/2.png)
+![img](/tech-notes-zh-tw/public/2022-02-22/2.png)
 
 # 建立一個新的Model
 
 我們稱這個新的Model為Item(物體)。
 
-![img](/blog/public/2022-02-22/3.png)
+![img](/tech-notes-zh-tw/public/2022-02-22/3.png)
 
-![img](/blog/public/2022-02-22/4.png)
+![img](/tech-notes-zh-tw/public/2022-02-22/4.png)
 
 # 撰寫Model的內容
 

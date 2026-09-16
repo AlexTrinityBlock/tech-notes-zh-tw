@@ -20,27 +20,27 @@ tags: ["ASP.net"]
 其中.sln檔案也就是Visual Studio.Solution，解決方案檔案，一個能將我們專案裡頭各種檔案資源組織的檔案。
 
 
-![img](/blog/public/2022-02-15/1.png)
+![img](/tech-notes-zh-tw/public/2022-02-15/1.png)
 
 進入專案後看到的檔案
 
-![img](/blog/public/2022-02-15/2.png)
+![img](/tech-notes-zh-tw/public/2022-02-15/2.png)
 
 # 專案中不同資料夾的用途
 
-![img](/blog/public/2022-02-15/3.png)
+![img](/tech-notes-zh-tw/public/2022-02-15/3.png)
 
 
 # 在主頁面_Layout.cshtml中的內容
 
-![img](/blog/public/2022-02-15/4.png)
+![img](/tech-notes-zh-tw/public/2022-02-15/4.png)
 
 # HomeController中的C#程式
 
 在Controller中的內容有辦法送到前端，例如某些的參數或者陣列。
 
-![img](/blog/public/2022-02-15/5.png)
+![img](/tech-notes-zh-tw/public/2022-02-15/5.png)
 
 # Index.cshtml中的內容
 
-![img](/blog/public/2022-02-15/6.png)
+![img](/tech-notes-zh-tw/public/2022-02-15/6.png)

@@ -43,13 +43,13 @@ virtualbox
 
 1.點擊設定
 
-![img](/blog/public/2022-03-14/1.png)
+![img](/tech-notes-zh-tw/public/2022-03-14/1.png)
 
 2.設置網路
 
 選擇網路>附加到NAT>介面卡類型:半虛擬化網路
 
-![img](/blog/public/2022-03-14/2.png)
+![img](/tech-notes-zh-tw/public/2022-03-14/2.png)
 
 然後點擊"連接埠轉送"
 
@@ -59,4 +59,4 @@ virtualbox
 
 <span style="color:red">注意!在Ubuntu上頭真實電腦的防火牆UFW可能會預設鎖住80 port，所以我在耗費無數的失敗時間後，認為如果可以的話，調整防火牆設置，或者直接在真實電腦上改開動8080 port。</span>
 
-![img](/blog/public/2022-03-14/3.png)
+![img](/tech-notes-zh-tw/public/2022-03-14/3.png)

@@ -25,10 +25,10 @@ tags: ["ngrok","手機網路","伺服器","network"]
 [ngrok](https://ngrok.com/)  
 
 然後下載ngrok檔案  
-![img](/blog/public/2021-04-27/ngrok1.png)  
+![img](/tech-notes-zh-tw/public/2021-04-27/ngrok1.png)  
 
 解壓縮，並且將金鑰登入
-![img](/blog/public/2021-04-27/ngrok2.png)  
+![img](/tech-notes-zh-tw/public/2021-04-27/ngrok2.png)  
 
 ### 啟動ip轉發 
 

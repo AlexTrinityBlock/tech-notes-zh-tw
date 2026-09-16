@@ -30,9 +30,9 @@ tags: ["Node.js"]
 
 # 先備知識
 
-[學會安裝NPM](/blog/public/post/node.js/npm安裝/)
+[學會安裝NPM](/tech-notes-zh-tw/public/post/node.js/npm安裝/)
 
-[用Express-generator建立專案](/blog/public/post/node.js/用express-generator建立專案/)
+[用Express-generator建立專案](/tech-notes-zh-tw/public/post/node.js/用express-generator建立專案/)
 
 [回到目錄](#目錄)
 

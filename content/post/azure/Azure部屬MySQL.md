@@ -12,15 +12,15 @@ tags: ["Azure"]
 
 如果沒有的話，可以在上排選單。
 
-![img](/blog/public/2022-03-08/az1.png)
+![img](/tech-notes-zh-tw/public/2022-03-08/az1.png)
 
 ## 2.建立
 
-![img](/blog/public/2022-03-08/az2.png)
+![img](/tech-notes-zh-tw/public/2022-03-08/az2.png)
 
 ## 3.單一伺服器
 
-![img](/blog/public/2022-03-08/az3.png)
+![img](/tech-notes-zh-tw/public/2022-03-08/az3.png)
 
 ## 4.建立MySQL伺服器
 
@@ -31,19 +31,19 @@ tags: ["Azure"]
 >管理使正者名稱  
 >密碼  
 
-![img](/blog/public/2022-03-08/az4.png)
+![img](/tech-notes-zh-tw/public/2022-03-08/az4.png)
 
 ## 5.確認定價
 
-![img](/blog/public/2022-03-08/az5.png)
+![img](/tech-notes-zh-tw/public/2022-03-08/az5.png)
 
 ## 6.建立完成
 
-![img](/blog/public/2022-03-08/az6.png)
+![img](/tech-notes-zh-tw/public/2022-03-08/az6.png)
 
 ## 7.調整連線安全性
 
-![img](/blog/public/2022-03-08/az7.png)
+![img](/tech-notes-zh-tw/public/2022-03-08/az7.png)
 
 ## 8.連線安全設置調整
 
@@ -53,17 +53,17 @@ tags: ["Azure"]
 
 如果有必要也可以封鎖特定IP。
 
-![img](/blog/public/2022-03-08/az8.png)
+![img](/tech-notes-zh-tw/public/2022-03-08/az8.png)
 
 ## 9.打開Azure終端機
 
 在畫面右上角。
 
-![img](/blog/public/2022-03-08/az9.png)
+![img](/tech-notes-zh-tw/public/2022-03-08/az9.png)
 
 ## 10.打開Azure終端機
 
-![img](/blog/public/2022-03-08/az10.png)
+![img](/tech-notes-zh-tw/public/2022-03-08/az10.png)
 
 ## 11.登入MySQL
 
@@ -79,7 +79,7 @@ mysql --host=<伺服器名稱>.mysql.database.azure.com --user=<管理使正者�
 mysql --host=imserver123.mysql.database.azure.com --user=imuser123@imserver123 -p
 ```
 
-![img](/blog/public/2022-03-08/az11.png)
+![img](/tech-notes-zh-tw/public/2022-03-08/az11.png)
 
 ## 12.嘗試插入MySQL語法
 
@@ -109,5 +109,5 @@ INSERT INTO item  (ID, Name, Number) VALUES  ("A001", "BKO001", "12");
 SELECT * FROM item;
 ```
 
-![img](/blog/public/2022-03-08/az12.png)
-![img](/blog/public/2022-03-08/az13.png)
+![img](/tech-notes-zh-tw/public/2022-03-08/az12.png)
+![img](/tech-notes-zh-tw/public/2022-03-08/az13.png)

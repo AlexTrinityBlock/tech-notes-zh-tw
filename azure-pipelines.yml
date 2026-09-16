@@ -17,7 +17,7 @@ stages:
       runOnce:
         deploy:
           steps:
-          - script: git clone https://github.com/AlexTrinityBlock/blog.git
+          - script: git clone https://github.com/AlexTrinityBlock/tech-notes-zh-tw.git
             displayName: '下載 Blog'
-          - script: cd ./blog && hugo
+          - script: cd ./tech-notes-zh-tw && hugo
             displayName: '編譯 Hugo'

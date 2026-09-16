@@ -1,5 +1,5 @@
 #上傳時記得啟動網址
-baseURL = "https://alextrinityblock.github.io/blog/public/"
+baseURL = "https://alextrinityblock.github.io/tech-notes-zh-tw/public/"
 languageCode = "zh-hant"
 title = "無面者小站"
 theme = "ananke"
@@ -101,7 +101,7 @@ SectionPagesMenu = "main" #上排標籤選單
 #  文章字體
 #  post_content_classes = "avenir white"
   description = "歡迎來到無面者小站" #html meta 裡面的說明
-#   site_logo = "/blog/public/logo2.jpg" #網站左上角logo
+#   site_logo = "/tech-notes-zh-tw/public/logo2.jpg" #網站左上角logo
 #   facebook = ""
 #   twitter = ""
 #   instagram = ""

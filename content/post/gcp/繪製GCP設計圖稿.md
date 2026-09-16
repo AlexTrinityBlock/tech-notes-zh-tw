@@ -14,7 +14,7 @@ tags: ["GCP"]
 
 可以用拖曳進行操作。
 
-![GCP-Developer-cheat-sheet.jpg](/blog/public/2023-12-31/GCP-Developer-cheat-sheet.jpg)
+![GCP-Developer-cheat-sheet.jpg](/tech-notes-zh-tw/public/2023-12-31/GCP-Developer-cheat-sheet.jpg)
 
 **參考頁面:**
 

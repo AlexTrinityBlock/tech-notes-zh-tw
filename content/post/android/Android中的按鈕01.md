@@ -25,7 +25,7 @@ https://developer.android.com/studio
 
 Android 的前端採取的是XML語法。
 
-![empty](/blog/public/2021-09-09/empty.jpg)
+![empty](/tech-notes-zh-tw/public/2021-09-09/empty.jpg)
 
 ```xml
 
@@ -77,7 +77,7 @@ public class MainActivity extends AppCompatActivity {
 
 # 5.在前端建立一個新按鈕
 
-![empty](/blog/public/2021-09-09/designMode.png)
+![empty](/tech-notes-zh-tw/public/2021-09-09/designMode.png)
 
 將按鈕拖曳到畫面中的某個位置
 

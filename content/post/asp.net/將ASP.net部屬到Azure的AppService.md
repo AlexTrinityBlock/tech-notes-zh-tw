@@ -18,43 +18,43 @@ App Service可以用極簡單，很少配置的方式，將程式藉由Visual St
 
 我們已經寫好一個ASP.net的程式之後，在專案上頭按下右鍵。
 
-![img](/blog/public/2022-02-22/azure/3.png)
+![img](/tech-notes-zh-tw/public/2022-02-22/azure/3.png)
 
 然後按下發佈
 
-![img](/blog/public/2022-02-22/azure/4.png)
+![img](/tech-notes-zh-tw/public/2022-02-22/azure/4.png)
 
 選擇Azure
 
-![img](/blog/public/2022-02-22/azure/5.png)
+![img](/tech-notes-zh-tw/public/2022-02-22/azure/5.png)
 
 選擇App Service
 
-![img](/blog/public/2022-02-22/azure/6.png)
+![img](/tech-notes-zh-tw/public/2022-02-22/azure/6.png)
 
 添加新的資源。
 
-![img](/blog/public/2022-02-22/azure/7.png)
+![img](/tech-notes-zh-tw/public/2022-02-22/azure/7.png)
 
 等待一下。
 
-![img](/blog/public/2022-02-22/azure/8.png)
+![img](/tech-notes-zh-tw/public/2022-02-22/azure/8.png)
 
 新增好資源之後就能按下完成。
 
-![img](/blog/public/2022-02-22/azure/9.png)
+![img](/tech-notes-zh-tw/public/2022-02-22/azure/9.png)
 
 點擊發佈
 
-![img](/blog/public/2022-02-22/azure/10.png)
+![img](/tech-notes-zh-tw/public/2022-02-22/azure/10.png)
 
 發佈成功
 
-![img](/blog/public/2022-02-22/azure/11.png)
+![img](/tech-notes-zh-tw/public/2022-02-22/azure/11.png)
 
 點開上頭提供的發佈網址就可以顯示了。
 
-![img](/blog/public/2022-02-22/azure/12.png)
+![img](/tech-notes-zh-tw/public/2022-02-22/azure/12.png)
 
 **由於這個要錢的，不用時要趕快關掉。**
 
@@ -64,13 +64,13 @@ App Service可以用極簡單，很少配置的方式，將程式藉由Visual St
 
 這個是提供些服務項目的主面板。(綠色是app service)
 
-![img](/blog/public/2022-02-22/azure/1.png)
+![img](/tech-notes-zh-tw/public/2022-02-22/azure/1.png)
 
 點進來後可以看到我們已經部屬上去的程式。
 
-![img](/blog/public/2022-02-22/azure/2.png)
+![img](/tech-notes-zh-tw/public/2022-02-22/azure/2.png)
 
 還可以看到一些細節
 
-![img](/blog/public/2022-02-22/azure/2.2.png)
+![img](/tech-notes-zh-tw/public/2022-02-22/azure/2.2.png)
 

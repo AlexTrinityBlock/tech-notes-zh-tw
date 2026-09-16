@@ -160,7 +160,7 @@ tags: ["GCP"]
 
 # 比較表
 
-![image](/blog/public/2023-11-30/imagevssnapshot.png)
+![image](/tech-notes-zh-tw/public/2023-11-30/imagevssnapshot.png)
 
 # 用 Gcloud 建立硬碟
 

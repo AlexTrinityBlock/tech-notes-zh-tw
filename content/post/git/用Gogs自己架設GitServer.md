@@ -62,38 +62,38 @@ docker run -d --name=gogs -p 10022:22 -p 10880:3000 -v /var/gogs:/data gogs/gogs
 
 ## 雖然SQLite效能不完美，但是單純就配置的容易度來看，是最容易的。
 
-![img](/blog/public/2022-02-23/1.png)
+![img](/tech-notes-zh-tw/public/2022-02-23/1.png)
 
 ## 網址後頭的port一定要改成我們設置的10880port。
 
-![img](/blog/public/2022-02-23/2.png)
+![img](/tech-notes-zh-tw/public/2022-02-23/2.png)
 
 ## 然後建議先建立好管理員帳號。
 
-![img](/blog/public/2022-02-23/3.png)
+![img](/tech-notes-zh-tw/public/2022-02-23/3.png)
 
 ## 最後就可以登入使用了。
 
-![img](/blog/public/2022-02-23/4.png)
+![img](/tech-notes-zh-tw/public/2022-02-23/4.png)
 
 # 6.進行SSH配置
 
 ## 進入用戶設定
 
-![img](/blog/public/2022-02-23/5.png)
+![img](/tech-notes-zh-tw/public/2022-02-23/5.png)
 
 ## 管理SSH密鑰
 
-![img](/blog/public/2022-02-23/6.png)
+![img](/tech-notes-zh-tw/public/2022-02-23/6.png)
 
 ## 新增密鑰並且將自己的公鑰貼上
 
 如果不知道如何生成公私鑰，可以到這篇查看。
 
-[生成SSH公私鑰匙](/blog/public/post/git/github免密碼上傳/)
+[生成SSH公私鑰匙](/tech-notes-zh-tw/public/post/git/github免密碼上傳/)
 
 鑰匙產生之後，記得，我們使用10022port進行SSH連線，所以請按照這一篇，調整我們的SSH連線port。
 
-[調整SSH連線Port](/blog/public/post/git/如何用22port以外連上gitserver/)
+[調整SSH連線Port](/tech-notes-zh-tw/public/post/git/如何用22port以外連上gitserver/)
 
-![img](/blog/public/2022-02-23/7.png)
+![img](/tech-notes-zh-tw/public/2022-02-23/7.png)

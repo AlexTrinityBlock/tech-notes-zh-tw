@@ -570,7 +570,7 @@ stress -c 4
 
 > 實體正在結束時稱為terminating status，也可以添加一些額外動做。 
 
-![img](/blog/public/2022-08-03/lifecycle_hooks.png)
+![img](/tech-notes-zh-tw/public/2022-08-03/lifecycle_hooks.png)
 
 > 建立實體的必要條件有AMI, Instance Type, Key Pair (用來訪問實體) ,Security Groups，與其他參數。
 
